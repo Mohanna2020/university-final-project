@@ -1,0 +1,137 @@
+.navbar {
+  color: white;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  padding: 50px 0 0 25px;
+  /* padding: 50px 0 0 10px; */
+  border-right: 2px solid grey;
+  background: black;
+}
+
+.items_nav {
+  border-radius: 100px;
+  /* padding: 10px 0 10px 15px; */
+  /* margin-left: 15px; */
+  transition: all 0.3s;
+  cursor: pointer;
+  /* display: inline-block; */
+}
+
+.items_nav:hover {
+  background: rgb(24, 24, 24);
+  width: 100%;
+  transition: all 0.3s;
+  /* box-shadow:inset 0 0 10px 0 rgb(56, 56, 56); */
+}
+
+/* .items_nav a {color: red;} */
+
+.items_nav p {
+  font-size: 20px;
+  color: rgb(231, 231, 231);
+  /* justify-content: space-evenly; */
+}
+
+.items_nav_text,
+.items_nav a {
+  padding: 10px 0 10px 15px;
+  outline: none;
+  border: none;
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  border-radius: 100px;
+  color: white;
+  text-decoration: none;
+  background: none;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.items_nav_text:hover,
+.itms_nav a:hover {
+  background: rgb(24, 24, 24);
+  width: 100%;
+  transition: all 0.3s;
+}
+
+/* .items_nav_text:hover {
+  background: rgb(24, 24, 24);
+  width: 100%;
+  transition: all 0.3s;
+} */
+
+/* .items_nav_text:active {
+  color: grey;
+} */
+
+.items_nav_icon {
+  margin-right: 15px;
+  /* font-size: 40px; */
+}
+
+.items_nav:hover:hover .items_nav_icon {
+  transition: all 0.3s;
+  transform: rotate(360deg);
+}
+button {
+  cursor: pointer;
+}
+.inputSearch {
+  padding: 0 23px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cartsSearch {
+  overflow-y: auto;
+  border-top: 1px solid rgb(51, 51, 51);
+  padding: 15px 25px;
+}
+
+.cartSearch {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgb(24, 24, 24);
+  border-radius: 7px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 7px 0;
+}
+
+.imgSearch {
+  border-radius: 100%;
+  border: 2px solid rgb(150, 0, 87);
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  padding: 2px;
+  display: inline-flex;
+}
+
+.textCartSearch {
+  padding: 0 !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  margin-left: 15px;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+}
+
+.userNameSearch {
+  text-align: left;
+  font-weight: bold;
+}
+
+.nameSearch {
+  font-size: 15px;
+}
+
+
